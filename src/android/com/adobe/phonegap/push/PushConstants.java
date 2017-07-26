@@ -3,7 +3,6 @@ package com.adobe.phonegap.push;
 public interface PushConstants {
     public static final String COM_ADOBE_PHONEGAP_PUSH = "com.adobe.phonegap.push";
     public static final String REGISTRATION_ID = "registrationId";
-    public static final String REGISTRATION_TYPE = "registrationType";
     public static final String FOREGROUND = "foreground";
     public static final String TITLE = "title";
     public static final String NOT_ID = "notId";
@@ -39,6 +38,7 @@ public interface PushConstants {
     public static final String STYLE_PICTURE = "picture";
     public static final String STYLE_TEXT = "text";
     public static final String BADGE = "badge";
+    public static final String ID_NOTIFICATION = "id";
     public static final String INITIALIZE = "init";
     public static final String SUBSCRIBE = "subscribe";
     public static final String UNSUBSCRIBE = "unsubscribe";
@@ -56,12 +56,13 @@ public interface PushConstants {
     public static final String FROM = "from";
     public static final String COLLAPSE_KEY = "collapse_key";
     public static final String FORCE_SHOW = "forceShow";
-    public static final String FCM = "FCM";
+    public static final String GCM = "GCM";
     public static final String CONTENT_AVAILABLE = "content-available";
     public static final String TOPICS = "topics";
     public static final String SET_APPLICATION_ICON_BADGE_NUMBER = "setApplicationIconBadgeNumber";
     public static final String GET_APPLICATION_ICON_BADGE_NUMBER = "getApplicationIconBadgeNumber";
     public static final String CLEAR_ALL_NOTIFICATIONS = "clearAllNotifications";
+    public static final String CLEAR_NOTIFICATION = "clearNotification";
     public static final String VISIBILITY = "visibility";
     public static final String INLINE_REPLY = "inlineReply";
     public static final String LOC_KEY = "locKey";
@@ -70,6 +71,7 @@ public interface PushConstants {
     public static final String TWILIO_TITLE = "twi_title";
     public static final String TWILIO_SOUND = "twi_sound";
     public static final String MP_MESSAGE = "mp_message";
+    public static final String MP_TITLE = "mp_title";
     public static final String START_IN_BACKGROUND = "cdvStartInBackground";
     public static final String FORCE_START = "force-start";
     public static final String MESSAGE_KEY = "messageKey";
@@ -80,7 +82,4 @@ public interface PushConstants {
     public static final String IMAGE_TYPE_SQUARE = "square";
     public static final String IMAGE_TYPE_CIRCLE = "circle";
     public static final String SUBJECT = "subject";
-    public static final String GOOGLE_APP_ID = "google_app_id";
-    public static final String GCM_DEFAULT_SENDER_ID = "gcm_defaultSenderId";
-    public static final String PUSH_DISMISSED = "push_dismissed";
 }
